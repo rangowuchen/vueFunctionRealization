@@ -1,10 +1,14 @@
 <style lang="less" scoped>
-
+a{
+    margin: 10px 10px;
+}
 </style>
 
 <template>
     <div>
-        <a @click="vuejsGrid">vuejsGrid-vuejs网格</a>
+        <!-- <a @click="vuejsGrid">vuejsGrid-vuejs网格</a> -->
+        <router-link to="/Grid">vuejsGrid-vuejs网格</router-link>
+        <router-link to="/formItem">formItem</router-link>
     </div>
 </template>
 
@@ -15,11 +19,6 @@
             }
         },
         methods: {
-            vuejsGrid() {
-                this.$router.push({
-                    path: '/Grid'
-                })
-            }
         }
     }
 </script>
