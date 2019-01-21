@@ -9,6 +9,8 @@ a{
         <!-- <a @click="vuejsGrid">vuejsGrid-vuejs网格</a> -->
         <router-link to="/Grid">vuejsGrid-vuejs网格</router-link>
         <router-link to="/formItem">formItem</router-link>
+        <router-link to="/treeRole">treeRole</router-link>
+        
     </div>
 </template>
 

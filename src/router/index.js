@@ -21,6 +21,11 @@ export default new Router({
       name: 'formItem',
       //iview组件距离待完善
       component: function (resolve) { require(['@/pages/formItem.vue'], resolve) },
+    },
+    {
+      path: '/treeRole',
+      name: 'treeRole',
+      component: function (resolve) { require(['@/pages/treeRole/treeRole.vue'], resolve) },
     }
   ]
 })
